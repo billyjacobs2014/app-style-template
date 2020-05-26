@@ -1,0 +1,28 @@
+
+.App {
+  display: flex;
+  flex:1;
+  flex-direction: column;
+  max-height: 100vh;
+
+  .headerContainer {
+    flex-direction: row;
+    display: flex;
+    align-items: center; // vertically aligns the items center with flex-direction = row
+    height: 52px;
+  }
+  .contentContainer {
+    overflow-y: auto;
+    display: flex;
+    min-height: 0px;
+    flex: 1; // Fill the entire contents of the container even if the content is smaller
+    flex-direction: column;
+  }
+  .footerContainer {
+    flex-direction: row;
+    display: flex; // default is flex-direction = row
+    align-items: center; // vertically aligns the items center with flex-direction = row
+    height: 52px;
+    justify-content: flex-end;
+  }
+}

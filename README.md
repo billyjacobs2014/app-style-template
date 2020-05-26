@@ -1,4 +1,4 @@
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+This project is a template which sets up containers to make your web application behave like a native app with a fixed header and footer and a content area. You can read about the details of this template which gives a walkthrough of the creation at: https://gides.com/billy/make-your-web-app-look-like-a-native-app
 
 ## Available Scripts
 
